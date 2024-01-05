@@ -14,7 +14,7 @@ UNION ALL
 
 SELECT * FROM appleStore_description4;
 
-/* There stakeholder is an app developer seeking to answers to questions like:
+/* The stakeholder is an app developer seeking answers to questions like:
 What app categorgories are most popular?
 What prize should I set?
 How can I maximize user ratings? *\
@@ -43,7 +43,7 @@ WHERE app_desc is NULL;
 
 --No missing values, data set is clean
 
---Find out the the number of apps per genre
+--Find out the number of apps per genre
 
 SELECT prime_genre, COUNT(*) AS NumApps
 FROM AppleStore
@@ -52,7 +52,7 @@ ORDER by Numapps DESC;
 
 --Clearly, games and entertainment are the most made apps
 
---Get an overview od apps' ratings
+--Get an overview of apps' ratings
 
 SELECT min(user_rating) AS MinRating,
 		max(user_rating) AS MaxRating,
@@ -87,9 +87,9 @@ SELECT CASE
  GROUP BY language_bucket
  ORDER BY AvgRating DESC;
  
- -- 10-30 lang = 4.13, >30 = 3.78, <10 3.37 Dont need to work on so many languages
+ --10-30 lang = 4.13, >30 = 3.78, <10 3.37 Dont need to work on so many languages
  
- -Check genres with low ratings
+ --Check genres with low ratings
  
  SELECT prime_genre,
  		avg(user_rating) AS Avg_Rating
