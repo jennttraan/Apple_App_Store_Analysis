@@ -1,6 +1,6 @@
 Apple Store Apps Analysis And Exploration
 
-Analyzing Apple Store app reviews and categories will help software eningeers and stakeholders develop apps that will be competative and have better reviews in the market. I was able to ask questions like what were the most popular apps, what affects user ratings, such as languages, and what categories of apps did the best in the market. 
+Analyzing Apple Store app reviews and categories will help software eningeers and stakeholders develop apps that will be competitive and have better reviews in the market. I was able to ask questions like what were the most popular apps, what affects user ratings, such as languages, and what categories of apps did the best in the market. 
 After analyzing the data I found that:
 1. Paid apps have better ratings. Users whp pay for an app may have higher engagement which leads to better ratings. Stakeholders should consider charging a certain amount.  
 2. Apps supporting between 10 and 30 language have better ratings. Focus on the right languages for the consumers.
