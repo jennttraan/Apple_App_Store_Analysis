@@ -4,7 +4,7 @@
 
 ## Business Task
 
-Analyzing Apple Store app reviews and categories will help software eningeers and stakeholders develop apps that will be competitive and have better reviews in the market. 
+Analyzing Apple Store app reviews and categories will help software engineers and stakeholders develop apps that will be competitive and have better reviews in the market. 
 1. What were the most popular apps?
 2. What affects user ratings, such as languages?
 3. What categories of apps do the best in the market?
